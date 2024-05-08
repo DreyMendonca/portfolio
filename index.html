@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="inicio">
+            <div class="title">
+                <h1>Olá, sou o
+                    <br>Andrey Mendonça.
+                </h1>
+            </div>
+
+            <div class="subtitle">
+                <h3>Desenvolvedor Web</h3>
+            </div>
+        </div>
+
+        <div class="button">
+            <a href="#aboutme"><button>Veja meu portfólio</button></a>
+            <a href="/images/curriculoAndreyMendonca.pdf" download="curriculoAndreyMendonca.pdf"
+                type="application/pdf"><button>Download CV</button></a>
+        </div>
+
+        <aside>
+            <div class="socialmedia">
+                <ul>
+                    <li>
+                        <div class="linkedin"> <a href="https://www.linkedin.com/in/dreymendonca" target="_blank"><img
+                                    src="images/linkedinLogo.png" alt="linkedinLogo"></a> </div>
+                    </li>
+
+                    <li>
+                        <div class="github"> <a href="https://github.com/DreyMendonca" target="_blank"><img
+                                    src="images/githubLogo.png" alt="githubLogo"></a> </div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+    <section id="aboutme" class="aboutme">
+        <h1>Sobre mim</h1>
+        <br>
+        <p class="apresentation">Meu nome é Andrey Mendonça.
+            <br> Sou um Desenvolvedor Web apaixonado em criar <br> experiências digitais excepcionais.
+            <br> Estou sempre em busca de novos desafios e <br> oportunidades para crescer profissionalmente.
+            <br> Pronto para compartilhar minhas experiências e <br> colaborar em projetos empolgantes!
+        </p>
+
+        <div class="skills">
+            <h1>Hard Skills</h1>
+
+            <ul>
+                <li>
+                    <div class="html"> <img src="images/html.png" alt="htmlLogo"></div>
+                </li>
+                <li>
+                    <div class="css"> <img src="images/css.png" alt="cssLog"></div>
+                </li>
+                <li>
+                    <div class="javascript"> <img src="images/javascript.png" alt="javascriptLogo"></div>
+                </li>
+                <li>
+                    <div class="react"> <img src="images/react.png" alt="reactLogo"></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="projects">
+        <h1>Projetos</h1>
+        <div class="cards">
+            <div class="card"> <a href="https://github.com/DreyMendonca" target="_blank">Projeto 1</div></a>
+            <div class="card"> <a href="https://github.com/DreyMendonca" target="_blank">Projeto 2</div></a>
+            <div class="card"> <a href="https://github.com/DreyMendonca" target="_blank">Projeto 3</div></a>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h1>Entre em contato</h1>
+
+        <div class="form">
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <label>Nome</label>
+                <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                <br><label>Email</label>
+                <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+                <br> <label>Mensagem</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Digite uma mensagem..." required></textarea>
+                <br><br><button type="submit">Enviar</button>
+
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
+                <input type="hidden" name="accessKey" value="e277e7d8-53ce-4036-a775-edbad8249507">
+            </form>
+        </div>
+    </div>
+
+
+    <footer>
+        <h2>Desenvolvido por DreyMendonca</h2>
+
+        <ul>
+            <li>
+                <div class="githubFooter"> <a href="https://github.com/DreyMendonca" target="_blank"><img
+                            src="images/githubLogo.png" alt="githubLogo"></a> </div>
+            </li>
+
+            <li>
+                <div class="linkedinFooter"> <a href="https://www.linkedin.com/in/dreymendonca" target="_blank"><img
+                            src="images/linkedinLogo.png" alt="linkedinLogo"></a> </div>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
